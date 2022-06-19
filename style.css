@@ -1,0 +1,13 @@
+.circle {width:100px;
+    height:100px;
+    background-color:black;
+    border-radius:50%;
+    
+    animation: action 2s ease-in-out infinite alternate 0s backwards
+    
+    }
+    @keyframes action {
+    from {margin-top:0; margin-left: 0; background-color: red;} 
+    50% {border-radius:0%; background: url(/assets/images/tree1.jpg);background-size: 100%;}
+    to {margin-top:50%; margin-left:95%; background-color: blue; } 
+    }
